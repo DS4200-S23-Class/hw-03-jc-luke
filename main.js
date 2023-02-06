@@ -26,10 +26,10 @@ function duckClick() {
 
 	if (hidden) {
 		duck.removeAttribute("hidden");
-		img.innerText = "hide image"
+		duck.innerText = "hide image"
 	}
-	else{
+	else {
 		duck.setAttribute("hidden", "hidden");
-		img.innerText = "show image"
+		duck.innerText = "show image"
 	}
 }
