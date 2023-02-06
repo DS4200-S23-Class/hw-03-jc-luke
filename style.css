@@ -1,39 +1,43 @@
 
-
+/* set font of page to arial */
 body {
 	font-family: Arial;
 }
 
+
+/* vertically align images to the top */
 #imgs {
 	vertical-align: top;
 }
 
+
+/* aligns text to the center */
 #txt {
 	vertical-align: center;
 }
 
-.subbullet { 
-	margin-left: 2em;
-	padding-bottom: 0;
-}
 
+/* put the images and text in their respective columns */
 #col-wrap {
 	display: flex;
 	flex-direction: column;
 }
 
 
+/* class to center elements */
 .centered {
 	text-align: center;
 }
 
 
+/* a collection of both columns */
 .parent {
 	display: flex;
 	flex-direction: row;
 }
 
 
+/* represents the individual images and text blocks */
 .child {
 	padding: 60px;
 	margin: 10px;

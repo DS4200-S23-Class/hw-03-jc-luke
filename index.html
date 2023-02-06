@@ -16,21 +16,22 @@
     <!-- Flexbox direction is rows, but wrapper "col-wrap" puts images and texts into columns -->
     
     <div class="parent">
-        <div id="col-wrap">
 
+        <!-- import all of the images to the page -->
+        <div id="col-wrap">
             <div id="imgs" class="child">
-                <img src="img/vis1.png" alt="what 2016 would look life if just women voted" height="575">
+                <img src="img/vis1.png" alt="What 2016 would look life if just women voted" height="575">
             </div>
             <div id="imgs" class="child">
-                <img src="img/vis2.png" alt="sweet spot of batted balls" height="550">
+                <img src="img/vis2.png" alt="Sweet spot of batted balls" height="550">
             </div>
             <div id="imgs" class="child">
                 <img src="img/vis3.png" alt="Proportion of Students Based on Programming Language Most Familiar With" height="400">
             </div>
-
         </div>
 
 
+        <!-- add explanations of marks, channels, and colormaps for each image -->
         <div id="col-wrap">
             <div id="txt" class="child">
                 <h3>Marks</h3>
@@ -129,16 +130,18 @@
 
     </div>
 
+    <!-- add acknowledgements section for resources used -->
     <h4 class="centered">Acknowledgements</h4>
-    <div><ul>
-    <li><a href="https://dirask.com/questions/Flexbox-2-elements-per-row-100-width-of-the-page-when-each-item-have-10px-of-margin-and-padding-jPEJ51#:~:text=How%20to%20arrange%202%20elements,and%20padding%20set%20to%2010px.&text=If%20you%20have%20an%20even,will%20take%20the%20whole%20space.">Flexbox 2 elements per row - 100% width of the page when each item have 10px of margin and padding</a></li>
-    <li><a href="https://www.w3schools.com/css/css3_flexbox_container.asp">CSS Flex Container</a></li>
-    <li><a href="https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/">How to combine Flexbox and CSS grids for efficient layouts</a></li>
-    <li><a href="https://stackoverflow.com/questions/7082345/how-to-set-the-labels-size-on-a-pie-chart-in-python#:~:text=The%20simplest%20way%20to%20change%20the%20font%20size,so%3A%20ax.pie%20%28frac%2C%20colors%3Dcolors%2Clabels%3Dlabels%2C%20autopct%3D%27%251.1f%25%25%27%2C%20textprops%3D%20%7B%27fontsize%27%3A%2014%7D%29">How to set the labels size on a pie chart in python</a></li>
-    <li><a href="https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pie.html">matplotlib.pyplot.pie</a></li>
-    <li><a href="https://www.w3schools.com/css/css3_images.asp">CSS Styling Images</a></li>
-    <li><a href="https://www.dofactory.com/html/img/hidden#:~:text=The%20hidden%20attribute%20hides%20the,its%20position%20on%20the%20page.">Figuring Out Hidden Images</a></li>  
-
+    <div>
+        <ul>
+            <li><a href="https://dirask.com/questions/Flexbox-2-elements-per-row-100-width-of-the-page-when-each-item-have-10px-of-margin-and-padding-jPEJ51#:~:text=How%20to%20arrange%202%20elements,and%20padding%20set%20to%2010px.&text=If%20you%20have%20an%20even,will%20take%20the%20whole%20space.">Flexbox 2 elements per row - 100% width of the page when each item have 10px of margin and padding</a></li>
+            <li><a href="https://www.w3schools.com/css/css3_flexbox_container.asp">CSS Flex Container</a></li>
+            <li><a href="https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/">How to combine Flexbox and CSS grids for efficient layouts</a></li>
+            <li><a href="https://stackoverflow.com/questions/7082345/how-to-set-the-labels-size-on-a-pie-chart-in-python#:~:text=The%20simplest%20way%20to%20change%20the%20font%20size,so%3A%20ax.pie%20%28frac%2C%20colors%3Dcolors%2Clabels%3Dlabels%2C%20autopct%3D%27%251.1f%25%25%27%2C%20textprops%3D%20%7B%27fontsize%27%3A%2014%7D%29">How to set the labels size on a pie chart in python</a></li>
+            <li><a href="https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pie.html">matplotlib.pyplot.pie</a></li>
+            <li><a href="https://www.w3schools.com/css/css3_images.asp">CSS Styling Images</a></li>
+            <li><a href="https://www.dofactory.com/html/img/hidden#:~:text=The%20hidden%20attribute%20hides%20the,its%20position%20on%20the%20page.">Figuring Out Hidden Images</a></li>  
+        </ul>
     </div>
 
 <!-- add a button that will increase extra credit points each time clicked -->
@@ -149,6 +152,8 @@
         </div>
     </div>
 
+<!-- add a button that will show a surprise when clicked -->
+<!-- PLEASE NOTE: you need to click this button 2x initially for it to show. please grade the other button, but we were excited about this one and wanted to keep it in. -->
      <div>
         <div id="button-div" class="centered">
             <button type="button" onclick="duckClick()">Click Me for a Surprise!</button>
