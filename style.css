@@ -12,6 +12,11 @@ body {
 	vertical-align: center;
 }
 
+.subbullet { 
+	margin-left: 2em;
+	padding-bottom: 0;
+}
+
 #col-wrap {
 	display: flex;
 	flex-direction: column;
