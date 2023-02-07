@@ -27,11 +27,11 @@ function duckClick() {
 	// hide image if it is showing, show image if it is hidden (ON CLICK)
 	if (hidden) {
 		duck.removeAttribute("hidden");
-		duck.innerText = "hide image"
+		duck.innerText = "hide image";
 	}
 	else {
 		duck.setAttribute("hidden", "hidden");
-		duck.innerText = "show image"
+		duck.innerText = "show image";
 	}
 
 	// report to console when duck button is clicked
